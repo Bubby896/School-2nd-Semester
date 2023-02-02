@@ -40,6 +40,7 @@ public class student {
 
         String file_content = Files.readString(txtFile);
 
+        System.out.println("\nYour File Reads: \n");
         System.out.println(file_content);
     }
 }
